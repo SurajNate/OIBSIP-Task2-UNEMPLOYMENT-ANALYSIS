@@ -21,8 +21,7 @@ def capture_info(df):
     df.info(buf=buffer)
     return buffer.getvalue()
 
-# Display Data Info in Streamlit in Columns
-st.title("Unemployment Data Analysis @suraj_nate")
+st.title("Unemployment Data Analysis [@suraj_nate](https://www.instagram.com/suraj_nate/)")
 st.write("""
     This is an analysis of unemployment data. The datasets used for this analysis are sourced from Kaggle.\n 
     The first dataset, "Unemployment in India", and the second dataset, "Unemployment Rate up to 11/2020", 
